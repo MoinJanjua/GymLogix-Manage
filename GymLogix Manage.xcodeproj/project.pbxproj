@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4735622CDBB6FA00614CB2 /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4735612CDBB6FA00614CB2 /* DashboardCollectionViewCell.swift */; };
+		5D4BA8862CDCDD3A00D0F70B /* GymExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BA8852CDCDD3A00D0F70B /* GymExpenseViewController.swift */; };
+		5D4BA8892CDCE1E300D0F70B /* ShowGymExpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BA8882CDCE1E300D0F70B /* ShowGymExpViewController.swift */; };
+		5D4BA88B2CDCE1FC00D0F70B /* ShowGymExpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BA88A2CDCE1FC00D0F70B /* ShowGymExpTableViewCell.swift */; };
+		5D4BA88E2CDD080A00D0F70B /* SellProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BA88D2CDD080A00D0F70B /* SellProductViewController.swift */; };
+		5D4BA8912CDD08AD00D0F70B /* SeeDetailSellPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BA8902CDD08AD00D0F70B /* SeeDetailSellPViewController.swift */; };
+		5DC87D1B2CD89D070090AE39 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D1A2CD89D070090AE39 /* GenderViewController.swift */; };
+		5DC87D1E2CD8B0F40090AE39 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D1D2CD8B0F40090AE39 /* DashboardViewController.swift */; };
+		5DC87D212CD8B13D0090AE39 /* GymPurposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D202CD8B13D0090AE39 /* GymPurposeViewController.swift */; };
+		5DC87D242CD8B1720090AE39 /* TrainerSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D232CD8B1720090AE39 /* TrainerSelectionViewController.swift */; };
+		5DC87D272CD8B2670090AE39 /* AgeandHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D262CD8B2670090AE39 /* AgeandHeightViewController.swift */; };
+		5DC87D2A2CD8B2D80090AE39 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D292CD8B2D80090AE39 /* AddExpenseViewController.swift */; };
+		5DC87D2D2CD8C9980090AE39 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D2C2CD8C9980090AE39 /* iOSDropDown.swift */; };
+		5DC87D302CD8F8810090AE39 /* AddWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D2F2CD8F8810090AE39 /* AddWeightViewController.swift */; };
+		5DC87D332CD8F9030090AE39 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D322CD8F9030090AE39 /* HistoryViewController.swift */; };
+		5DC87D352CD8F9180090AE39 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D342CD8F9180090AE39 /* HistoryTableViewCell.swift */; };
+		5DC87D382CD8FA0B0090AE39 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D372CD8FA0B0090AE39 /* SettingsViewController.swift */; };
+		5DC87D3A2CD8FA130090AE39 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D392CD8FA130090AE39 /* SettingsTableViewCell.swift */; };
+		5DC87D3E2CD8FA330090AE39 /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D3D2CD8FA330090AE39 /* AboutusViewController.swift */; };
+		5DC87D402CD8FA3F0090AE39 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC87D3F2CD8FA3F0090AE39 /* FeedbackViewController.swift */; };
+		5DDBDB842CD4D90700579B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBDB832CD4D90700579B20 /* AppDelegate.swift */; };
+		5DDBDB862CD4D90700579B20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBDB852CD4D90700579B20 /* SceneDelegate.swift */; };
+		5DDBDB882CD4D90800579B20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBDB872CD4D90800579B20 /* ViewController.swift */; };
+		5DDBDB8B2CD4D90800579B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDBDB892CD4D90800579B20 /* Main.storyboard */; };
+		5DDBDB8D2CD4D90A00579B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDBDB8C2CD4D90A00579B20 /* Assets.xcassets */; };
+		5DDBDB902CD4D90A00579B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDBDB8E2CD4D90A00579B20 /* LaunchScreen.storyboard */; };
+		5DDBDB992CD4DCFD00579B20 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBDB982CD4DCFD00579B20 /* Helper.swift */; };
+		5DDBDB9C2CD4DD4700579B20 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBDB9B2CD4DD4700579B20 /* WelcomeViewController.swift */; };
+		5DDBDB9F2CD4E1F600579B20 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBDB9E2CD4E1F600579B20 /* TabBarViewController.swift */; };
+		5DE9CB4C2CDD0A6300FD51D2 /* SeeDetailSellPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9CB4B2CDD0A6300FD51D2 /* SeeDetailSellPTableViewCell.swift */; };
+		9570CF6836AADE085B931508 /* Pods_GymLogix_Manage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4983537C4FF197D218536C0F /* Pods_GymLogix_Manage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05FF3EF4C271AA418F40DB8B /* Pods-GymLogix Manage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymLogix Manage.debug.xcconfig"; path = "Target Support Files/Pods-GymLogix Manage/Pods-GymLogix Manage.debug.xcconfig"; sourceTree = "<group>"; };
+		4983537C4FF197D218536C0F /* Pods_GymLogix_Manage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymLogix_Manage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4735612CDBB6FA00614CB2 /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		5D4BA8852CDCDD3A00D0F70B /* GymExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymExpenseViewController.swift; sourceTree = "<group>"; };
+		5D4BA8882CDCE1E300D0F70B /* ShowGymExpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGymExpViewController.swift; sourceTree = "<group>"; };
+		5D4BA88A2CDCE1FC00D0F70B /* ShowGymExpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGymExpTableViewCell.swift; sourceTree = "<group>"; };
+		5D4BA88D2CDD080A00D0F70B /* SellProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellProductViewController.swift; sourceTree = "<group>"; };
+		5D4BA8902CDD08AD00D0F70B /* SeeDetailSellPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeDetailSellPViewController.swift; sourceTree = "<group>"; };
+		5DC87D1A2CD89D070090AE39 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		5DC87D1D2CD8B0F40090AE39 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5DC87D202CD8B13D0090AE39 /* GymPurposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPurposeViewController.swift; sourceTree = "<group>"; };
+		5DC87D232CD8B1720090AE39 /* TrainerSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerSelectionViewController.swift; sourceTree = "<group>"; };
+		5DC87D262CD8B2670090AE39 /* AgeandHeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeandHeightViewController.swift; sourceTree = "<group>"; };
+		5DC87D292CD8B2D80090AE39 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		5DC87D2C2CD8C9980090AE39 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		5DC87D2F2CD8F8810090AE39 /* AddWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightViewController.swift; sourceTree = "<group>"; };
+		5DC87D322CD8F9030090AE39 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		5DC87D342CD8F9180090AE39 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		5DC87D372CD8FA0B0090AE39 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5DC87D392CD8FA130090AE39 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		5DC87D3D2CD8FA330090AE39 /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		5DC87D3F2CD8FA3F0090AE39 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		5DDBDB802CD4D90700579B20 /* GymLogix Manage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GymLogix Manage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDBDB832CD4D90700579B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DDBDB852CD4D90700579B20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DDBDB872CD4D90800579B20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DDBDB8A2CD4D90800579B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DDBDB8C2CD4D90A00579B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DDBDB8F2CD4D90A00579B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DDBDB912CD4D90A00579B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DDBDB982CD4DCFD00579B20 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5DDBDB9B2CD4DD4700579B20 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5DDBDB9E2CD4E1F600579B20 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5DE9CB4B2CDD0A6300FD51D2 /* SeeDetailSellPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeDetailSellPTableViewCell.swift; sourceTree = "<group>"; };
+		EE7FEB61B06970CF3CADB0DB /* Pods-GymLogix Manage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymLogix Manage.release.xcconfig"; path = "Target Support Files/Pods-GymLogix Manage/Pods-GymLogix Manage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DDBDB7D2CD4D90700579B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9570CF6836AADE085B931508 /* Pods_GymLogix_Manage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D4BA8842CDCDD1F00D0F70B /* GymexpenseVC */ = {
+			isa = PBXGroup;
+			children = (
+				5D4BA8852CDCDD3A00D0F70B /* GymExpenseViewController.swift */,
+			);
+			path = GymexpenseVC;
+			sourceTree = "<group>";
+		};
+		5D4BA8872CDCE1BA00D0F70B /* ShowGymExpense */ = {
+			isa = PBXGroup;
+			children = (
+				5D4BA8882CDCE1E300D0F70B /* ShowGymExpViewController.swift */,
+				5D4BA88A2CDCE1FC00D0F70B /* ShowGymExpTableViewCell.swift */,
+			);
+			path = ShowGymExpense;
+			sourceTree = "<group>";
+		};
+		5D4BA88C2CDD07C300D0F70B /* createSellProduct */ = {
+			isa = PBXGroup;
+			children = (
+				5D4BA88D2CDD080A00D0F70B /* SellProductViewController.swift */,
+			);
+			path = createSellProduct;
+			sourceTree = "<group>";
+		};
+		5D4BA88F2CDD087A00D0F70B /* SeeDetailSellProduct */ = {
+			isa = PBXGroup;
+			children = (
+				5D4BA8902CDD08AD00D0F70B /* SeeDetailSellPViewController.swift */,
+				5DE9CB4B2CDD0A6300FD51D2 /* SeeDetailSellPTableViewCell.swift */,
+			);
+			path = SeeDetailSellProduct;
+			sourceTree = "<group>";
+		};
+		5DC87D192CD89CEB0090AE39 /* GenderVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D1A2CD89D070090AE39 /* GenderViewController.swift */,
+			);
+			path = GenderVC;
+			sourceTree = "<group>";
+		};
+		5DC87D1C2CD8B0DC0090AE39 /* DashboardVc */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D1D2CD8B0F40090AE39 /* DashboardViewController.swift */,
+				5D4735612CDBB6FA00614CB2 /* DashboardCollectionViewCell.swift */,
+			);
+			path = DashboardVc;
+			sourceTree = "<group>";
+		};
+		5DC87D1F2CD8B1140090AE39 /* GymPurposeVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D202CD8B13D0090AE39 /* GymPurposeViewController.swift */,
+			);
+			path = GymPurposeVC;
+			sourceTree = "<group>";
+		};
+		5DC87D222CD8B1490090AE39 /* TrainerSelectionVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D232CD8B1720090AE39 /* TrainerSelectionViewController.swift */,
+			);
+			path = TrainerSelectionVC;
+			sourceTree = "<group>";
+		};
+		5DC87D252CD8B18A0090AE39 /* Age&HeightVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D262CD8B2670090AE39 /* AgeandHeightViewController.swift */,
+			);
+			path = "Age&HeightVC";
+			sourceTree = "<group>";
+		};
+		5DC87D282CD8B2B80090AE39 /* Add ExpenseVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D292CD8B2D80090AE39 /* AddExpenseViewController.swift */,
+			);
+			path = "Add ExpenseVC";
+			sourceTree = "<group>";
+		};
+		5DC87D2B2CD8C9820090AE39 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D2C2CD8C9980090AE39 /* iOSDropDown.swift */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		5DC87D2E2CD8F86A0090AE39 /* AddWeightVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D2F2CD8F8810090AE39 /* AddWeightViewController.swift */,
+			);
+			path = AddWeightVC;
+			sourceTree = "<group>";
+		};
+		5DC87D312CD8F8F00090AE39 /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D322CD8F9030090AE39 /* HistoryViewController.swift */,
+				5DC87D342CD8F9180090AE39 /* HistoryTableViewCell.swift */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+		5DC87D362CD8F9E40090AE39 /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D392CD8FA130090AE39 /* SettingsTableViewCell.swift */,
+				5DC87D372CD8FA0B0090AE39 /* SettingsViewController.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		5DC87D3B2CD8FA160090AE39 /* FeedbackVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D3F2CD8FA3F0090AE39 /* FeedbackViewController.swift */,
+			);
+			path = FeedbackVC;
+			sourceTree = "<group>";
+		};
+		5DC87D3C2CD8FA210090AE39 /* AboutusVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DC87D3D2CD8FA330090AE39 /* AboutusViewController.swift */,
+			);
+			path = AboutusVC;
+			sourceTree = "<group>";
+		};
+		5DDBDB772CD4D90700579B20 = {
+			isa = PBXGroup;
+			children = (
+				5DDBDB822CD4D90700579B20 /* GymLogix Manage */,
+				5DDBDB812CD4D90700579B20 /* Products */,
+				5FD344043CAF541E858BA222 /* Pods */,
+				97EB7E7E90378E8E2F37D0FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DDBDB812CD4D90700579B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DDBDB802CD4D90700579B20 /* GymLogix Manage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDBDB822CD4D90700579B20 /* GymLogix Manage */ = {
+			isa = PBXGroup;
+			children = (
+				5D4BA88F2CDD087A00D0F70B /* SeeDetailSellProduct */,
+				5D4BA88C2CDD07C300D0F70B /* createSellProduct */,
+				5D4BA8872CDCE1BA00D0F70B /* ShowGymExpense */,
+				5D4BA8842CDCDD1F00D0F70B /* GymexpenseVC */,
+				5DC87D3C2CD8FA210090AE39 /* AboutusVC */,
+				5DC87D3B2CD8FA160090AE39 /* FeedbackVC */,
+				5DC87D362CD8F9E40090AE39 /* SettingsVC */,
+				5DC87D312CD8F8F00090AE39 /* HistoryVC */,
+				5DC87D2E2CD8F86A0090AE39 /* AddWeightVC */,
+				5DC87D2B2CD8C9820090AE39 /* resources */,
+				5DC87D282CD8B2B80090AE39 /* Add ExpenseVC */,
+				5DC87D252CD8B18A0090AE39 /* Age&HeightVC */,
+				5DC87D222CD8B1490090AE39 /* TrainerSelectionVC */,
+				5DC87D1F2CD8B1140090AE39 /* GymPurposeVC */,
+				5DC87D1C2CD8B0DC0090AE39 /* DashboardVc */,
+				5DC87D192CD89CEB0090AE39 /* GenderVC */,
+				5DDBDB9D2CD4E15800579B20 /* TabBar VC */,
+				5DDBDB9A2CD4DD2D00579B20 /* WelcomeVC */,
+				5DDBDB972CD4DCDA00579B20 /* Helper */,
+				5DDBDB832CD4D90700579B20 /* AppDelegate.swift */,
+				5DDBDB852CD4D90700579B20 /* SceneDelegate.swift */,
+				5DDBDB872CD4D90800579B20 /* ViewController.swift */,
+				5DDBDB892CD4D90800579B20 /* Main.storyboard */,
+				5DDBDB8C2CD4D90A00579B20 /* Assets.xcassets */,
+				5DDBDB8E2CD4D90A00579B20 /* LaunchScreen.storyboard */,
+				5DDBDB912CD4D90A00579B20 /* Info.plist */,
+			);
+			path = "GymLogix Manage";
+			sourceTree = "<group>";
+		};
+		5DDBDB972CD4DCDA00579B20 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5DDBDB982CD4DCFD00579B20 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5DDBDB9A2CD4DD2D00579B20 /* WelcomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DDBDB9B2CD4DD4700579B20 /* WelcomeViewController.swift */,
+			);
+			path = WelcomeVC;
+			sourceTree = "<group>";
+		};
+		5DDBDB9D2CD4E15800579B20 /* TabBar VC */ = {
+			isa = PBXGroup;
+			children = (
+				5DDBDB9E2CD4E1F600579B20 /* TabBarViewController.swift */,
+			);
+			path = "TabBar VC";
+			sourceTree = "<group>";
+		};
+		5FD344043CAF541E858BA222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05FF3EF4C271AA418F40DB8B /* Pods-GymLogix Manage.debug.xcconfig */,
+				EE7FEB61B06970CF3CADB0DB /* Pods-GymLogix Manage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97EB7E7E90378E8E2F37D0FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4983537C4FF197D218536C0F /* Pods_GymLogix_Manage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DDBDB7F2CD4D90700579B20 /* GymLogix Manage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDBDB942CD4D90A00579B20 /* Build configuration list for PBXNativeTarget "GymLogix Manage" */;
+			buildPhases = (
+				460352368AA7E4BB7BEA5353 /* [CP] Check Pods Manifest.lock */,
+				5DDBDB7C2CD4D90700579B20 /* Sources */,
+				5DDBDB7D2CD4D90700579B20 /* Frameworks */,
+				5DDBDB7E2CD4D90700579B20 /* Resources */,
+				63A445FD67B140F6D69B4DCC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GymLogix Manage";
+			productName = "GymLogix Manage";
+			productReference = 5DDBDB802CD4D90700579B20 /* GymLogix Manage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DDBDB782CD4D90700579B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5DDBDB7F2CD4D90700579B20 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5DDBDB7B2CD4D90700579B20 /* Build configuration list for PBXProject "GymLogix Manage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DDBDB772CD4D90700579B20;
+			productRefGroup = 5DDBDB812CD4D90700579B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DDBDB7F2CD4D90700579B20 /* GymLogix Manage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DDBDB7E2CD4D90700579B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDBDB902CD4D90A00579B20 /* LaunchScreen.storyboard in Resources */,
+				5DDBDB8D2CD4D90A00579B20 /* Assets.xcassets in Resources */,
+				5DDBDB8B2CD4D90800579B20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		460352368AA7E4BB7BEA5353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymLogix Manage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63A445FD67B140F6D69B4DCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymLogix Manage/Pods-GymLogix Manage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymLogix Manage/Pods-GymLogix Manage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymLogix Manage/Pods-GymLogix Manage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DDBDB7C2CD4D90700579B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC87D302CD8F8810090AE39 /* AddWeightViewController.swift in Sources */,
+				5DC87D272CD8B2670090AE39 /* AgeandHeightViewController.swift in Sources */,
+				5DC87D3A2CD8FA130090AE39 /* SettingsTableViewCell.swift in Sources */,
+				5DC87D402CD8FA3F0090AE39 /* FeedbackViewController.swift in Sources */,
+				5D4BA8912CDD08AD00D0F70B /* SeeDetailSellPViewController.swift in Sources */,
+				5D4735622CDBB6FA00614CB2 /* DashboardCollectionViewCell.swift in Sources */,
+				5DC87D2A2CD8B2D80090AE39 /* AddExpenseViewController.swift in Sources */,
+				5D4BA88B2CDCE1FC00D0F70B /* ShowGymExpTableViewCell.swift in Sources */,
+				5DC87D332CD8F9030090AE39 /* HistoryViewController.swift in Sources */,
+				5DE9CB4C2CDD0A6300FD51D2 /* SeeDetailSellPTableViewCell.swift in Sources */,
+				5D4BA8862CDCDD3A00D0F70B /* GymExpenseViewController.swift in Sources */,
+				5DDBDB882CD4D90800579B20 /* ViewController.swift in Sources */,
+				5DC87D242CD8B1720090AE39 /* TrainerSelectionViewController.swift in Sources */,
+				5DDBDB9C2CD4DD4700579B20 /* WelcomeViewController.swift in Sources */,
+				5DC87D3E2CD8FA330090AE39 /* AboutusViewController.swift in Sources */,
+				5DDBDB842CD4D90700579B20 /* AppDelegate.swift in Sources */,
+				5DDBDB862CD4D90700579B20 /* SceneDelegate.swift in Sources */,
+				5DDBDB9F2CD4E1F600579B20 /* TabBarViewController.swift in Sources */,
+				5DC87D352CD8F9180090AE39 /* HistoryTableViewCell.swift in Sources */,
+				5DC87D2D2CD8C9980090AE39 /* iOSDropDown.swift in Sources */,
+				5DC87D382CD8FA0B0090AE39 /* SettingsViewController.swift in Sources */,
+				5DDBDB992CD4DCFD00579B20 /* Helper.swift in Sources */,
+				5D4BA88E2CDD080A00D0F70B /* SellProductViewController.swift in Sources */,
+				5DC87D1B2CD89D070090AE39 /* GenderViewController.swift in Sources */,
+				5DC87D212CD8B13D0090AE39 /* GymPurposeViewController.swift in Sources */,
+				5D4BA8892CDCE1E300D0F70B /* ShowGymExpViewController.swift in Sources */,
+				5DC87D1E2CD8B0F40090AE39 /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DDBDB892CD4D90800579B20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DDBDB8A2CD4D90800579B20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DDBDB8E2CD4D90A00579B20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DDBDB8F2CD4D90A00579B20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DDBDB922CD4D90A00579B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DDBDB932CD4D90A00579B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DDBDB952CD4D90A00579B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FF3EF4C271AA418F40DB8B /* Pods-GymLogix Manage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GymLogix Manage/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GymLogixManage.GymLogix-Manage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5DDBDB962CD4D90A00579B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7FEB61B06970CF3CADB0DB /* Pods-GymLogix Manage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GymLogix Manage/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GymLogixManage.GymLogix-Manage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DDBDB7B2CD4D90700579B20 /* Build configuration list for PBXProject "GymLogix Manage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDBDB922CD4D90A00579B20 /* Debug */,
+				5DDBDB932CD4D90A00579B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDBDB942CD4D90A00579B20 /* Build configuration list for PBXNativeTarget "GymLogix Manage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDBDB952CD4D90A00579B20 /* Debug */,
+				5DDBDB962CD4D90A00579B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DDBDB782CD4D90700579B20 /* Project object */;
+}
